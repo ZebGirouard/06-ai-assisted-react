@@ -35,6 +35,7 @@ export default function App() {
           <button onClick={() => setFilter("learning")}>Learning</button>
           <button onClick={() => setFilter("building")}>Building</button>
           <button onClick={() => setFilter("debugging")}>Debugging</button>
+          <button onClick={() => setFilter("debugging")}>Debugging</button>
         </div>
         <TaskList tasks={visibleTasks} />
       </section>
