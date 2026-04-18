@@ -34,7 +34,11 @@ export default function App() {
           <button onClick={() => setFilter("all")}>All</button>
           <button onClick={() => setFilter("learning")}>Learning</button>
           <button onClick={() => setFilter("building")}>Building</button>
-          <button>{/* Which missing button would let the UI show only debugging tasks? */}Debugging</button>
+          <button>
+            {/* Which state value should this button send into `setFilter`? */}
+            {/* Which finished button above can you copy and then adjust? */}
+            Debugging
+          </button>
         </div>
         <TaskList tasks={visibleTasks} />
       </section>
