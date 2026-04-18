@@ -34,7 +34,7 @@ export default function App() {
           <button onClick={() => setFilter("all")}>All</button>
           <button onClick={() => setFilter("learning")}>Learning</button>
           <button onClick={() => setFilter("building")}>Building</button>
-          <button>{/* Add one more filter button here. */}Debugging</button>
+          <button>{/* Which missing button would let the UI show only debugging tasks? */}Debugging</button>
         </div>
         <TaskList tasks={visibleTasks} />
       </section>

@@ -6,7 +6,7 @@ Use a chatbot as a debugging and explanation tool while still staying responsibl
 ## Start Here
 1. Run `npm install`.
 2. Run `npm run dev`.
-3. Open `src/App.jsx`, implement one small feature, and use the prompts below to speed up your loop.
+3. Open `src/App.jsx`, finish one missing UI behavior, and use the prompts below to speed up your loop.
 
 Keep the scope small: ask for explanation, a bounded feature, or help debugging.
 
